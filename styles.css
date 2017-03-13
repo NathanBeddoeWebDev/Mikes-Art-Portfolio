@@ -2,6 +2,29 @@ body{
     font-family: raleway;
 }
 
+.landing-page{
+    background: url("images/Header Image.jpg");
+    height: 988px;
+}
+.landing-content{
+    color: white;
+
+    width: 33%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25%;
+
+}
+.landing-heading{
+    font-size: 6em;
+    font-weight: 700;
+}
+.landing-subheading{
+    font-size: 3em;
+    font-weight: 400;
+    text-align: left;
+    font-style: italic;
+}
 
 h4{
     font-weight: 700;
@@ -238,6 +261,12 @@ label{
 @media screen and (max-width: 768px) {
     .portfolio-img{
         max-height: none;
+    }
+    .landing-heading{
+        font-size: 4em;
+    }
+    .landing-subheading{
+        font-size: 1.5em;
     }
 }
 @media screen and (max-width: 992px) {
