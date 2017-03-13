@@ -225,12 +225,240 @@ figcaption{
     width: 75%;
     height: 3em;
     margin-bottom: 60px;
+body{
+    font-family: raleway;
+}
+
+.landing-page{
+    background: url("images/Header Image.jpg");
+    background-size: cover;
+    padding-top: 9%;
+}
+.landing-content{
+    color: white;
+    width: 33%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 18%;
+
+}
+.landing-heading{
+    font-size: 6em;
+    font-weight: 700;
+}
+.landing-subheading{
+    font-size: 3em;
+    font-weight: 500;
+    text-align: left;
+    font-style: italic;
+}
+h4{
+    font-weight: 700;
+
+}
+.white-border{
+    border-bottom: 1px solid white;
+}
+.black-border{
+    border-bottom: 1px solid black;
+}
+.navbar-header, .navbar-default{
+    background: white;
+    border: none;
+    margin-bottom: 0;
+}
+.boldened{
+    font-weight: 700;
+}
+.header-image{
+    padding: 0;
+
+}
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+.services{
+    background: #4bcaff;
+    color: white;
+    margin-bottom: 20px;
+
+}
+.capitalize{
+    text-transform: capitalize;
+}
+#service-heading{
+    font-weight: 100;
+}
+.service-content-section{
+    padding: 0 20px;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+.fa{
+    font-size: 2.0em;
+    display: inline-block;
+}
+.portfolio{
+    color: #959ca0;
+    padding-bottom: 150px;
+}
+a{
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: none;
+}
+.display-none{
+    display: none;
+}
+.thumbnail{
+    width: 255px;
+}
+#portfolio-heading, #featured-heading{
+    font-weight: 100;
+    display: inline-block;
+}
+.image-display{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.image-container{
+    margin-bottom: 20px;
+
+}
+#embedDiv{
+    width: 100%;
+    margin: 0 auto;
+    float: right;
+    padding-bottom: 0;
+}
+figure{
+    width: 50%;
+    margin: 0 auto;
+}
+figcaption{
+    text-align: center;
+    font-size: 2.5em;
+    position: relative;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+}
+.gallery-mode{
+    margin-top: 20px;
+    float: right;
+    width: 50%;
+}
+.gallery-mode-list{
+    list-style: none;
+    color: black;
+    font-size: 1.25em;
+    padding-right: 20px;
+}
+.active{
+    border: solid black 1px;
+    padding: 5px;
+}
+.btn-arrow-left{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    float: none;
+}
+
+.float-right{
+    float: right;
+}
+.btn-container{
+    width: 50%;
+    margin: 0 auto;
+}
+.featured{
+    background: #515f67;
+    color: white;
+}
+.featured-text{
+    padding-right: 50px;
+    padding-left: 0;
+}
+#featured-heading{
+    display: inline-block;
+}
+.embed-responsive-item{
+    float: right;
+}
+.about{
+    background-image: url("images/about-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+#about-heading{
+    font-weight: 100;
+}
+.col-md-6{
+    padding-left: 0;
+}
+.social-icons{
+    padding-top: 15px;
+
+}
+.icon-links{
+    color: white;
+}
+.about-main{
+    padding-top: 50px;
+    padding-bottom: 300px;
+}
+.portfolio-img{
+
+    max-height: 281px;
+}
+.testimonial-heading{
+    padding-left: 0;
+    font-weight: 100;
+}
+#testimonial-heading{
+    font-weight: 100;
+}
+.apostrophe{
+    font-size: 4em;
+}
+.apostrophe-container{
+    padding-top: 30px;
+}
+.testimonial-blockquote{
+    border: none;
+    padding-bottom: 50px;
+    font-weight: 500;
+}
+.contact-page{
+    background: url("images/Header Image.jpg");
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+}
+#contact-heading{
+    font-weight: 100;
+
+}
+.input{
+    border: solid white 1px;
+    background: none;
+    width: 75%;
+    height: 3em;
+    margin-bottom: 60px;
 }
 #email{
     margin-bottom: 60px;
 }
 .contact-content{
-    padding-top: 50px;
+    padding-top: 100px;
+    font-size: larger;
+    font-weight: 500;
 }
 
 label{
@@ -261,12 +489,6 @@ label{
 @media screen and (max-width: 768px) {
     .portfolio-img{
         max-height: none;
-    }
-    .landing-heading{
-        font-size: 4em;
-    }
-    .landing-subheading{
-        font-size: 1.5em;
     }
 }
 @media screen and (max-width: 992px) {
