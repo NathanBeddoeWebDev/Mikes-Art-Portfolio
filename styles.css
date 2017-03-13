@@ -16,12 +16,12 @@ body{
 
 }
 .landing-heading{
-    font-size: 28pt;
+    font-size: 36pt;
     font-weight: 700;
     text-align: center;
 }
 .landing-subheading{
-    font-size: 20pt;
+    font-size: 24pt;
     font-weight: 500;
     font-style: italic;
     text-align: center;
@@ -267,8 +267,12 @@ label{
     .landing-content{
         width: 100%;   
     }
+    .landing-content{
+        font-size: 28pt   
+    }
     .landing-subheading{
         text-align: left;
+        font-size:20pt
     }
     
 }
