@@ -9,18 +9,18 @@ body{
 }
 .landing-content{
     color: white;
-    width: 33%;
+    width: 50%;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 18%;
 
 }
 .landing-heading{
-    font-size: 6em;
+    font-size: 4em;
     font-weight: 700;
 }
 .landing-subheading{
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 500;
     text-align: left;
     font-style: italic;
