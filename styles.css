@@ -11,13 +11,14 @@ body{
     color: white;
     width: 50%;
     margin: 0 auto;
-    text-align: center;
+
     padding-bottom: 18%;
 
 }
 .landing-heading{
     font-size: 32pt;
     font-weight: 700;
+    text-align: center;
 }
 .landing-subheading{
     font-size: 24pt;
