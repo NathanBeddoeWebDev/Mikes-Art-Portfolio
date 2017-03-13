@@ -263,6 +263,9 @@ label{
     .portfolio-img{
         max-height: none;
     }
+    .landing-content{
+        width: 100%;   
+    }
 }
 @media screen and (max-width: 992px) {
     .apostrophe{
