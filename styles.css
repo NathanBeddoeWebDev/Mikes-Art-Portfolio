@@ -267,6 +267,18 @@ label{
         width: 100%;   
     }
 }
+@media screen and (max-width: 500px) {
+   .landing-heading{
+    font-size: 3em;
+    font-weight: 700;
+}
+.landing-subheading{
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: left;
+    font-style: italic;
+}
+}
 @media screen and (max-width: 992px) {
     .apostrophe{
         display: none;
