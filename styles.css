@@ -268,11 +268,11 @@ label{
         width: 100%;   
     }
     .landing-content{
-        font-size: 28pt   
+        font-size: 28pt;   
     }
     .landing-subheading{
         text-align: left;
-        font-size:20pt
+        font-size:20pt;
     }
     
 }
