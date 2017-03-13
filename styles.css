@@ -267,6 +267,9 @@ label{
     .landing-content{
         width: 100%;   
     }
+    .landing-subheading{
+        text-align: left;
+    }
     
 }
 
